@@ -12,8 +12,6 @@ mysql = MySQL()
 app.config.update(app_config)
 mysql.init_app(app)
 
-print(app.config)
-
 conn = mysql.connect()
 
 cursor = conn.cursor()
